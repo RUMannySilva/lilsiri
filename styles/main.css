@@ -1,5 +1,15 @@
 @import url("normalize.css");
 
+/*Base*/
 html {
-    font-size:0.625em;
+    font-size: 0.625em;
+}
+
+body, body * {
+  box-sizing: border-box;
+}
+
+/*Typography*/
+body {
+    font-size: 1.6rem;
 }
