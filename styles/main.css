@@ -19,6 +19,8 @@ body {
 /* main */
 main {
     height:90vh;
+    background: right 40px center no-repeat;
+    background-size: contain;
 }
 
 /*Left side Container for cat*/
@@ -26,15 +28,18 @@ main {
     height:100%;
     float:left;
     width:40%;
+    position: relative;
 }
 
-.picture-container img {
+.picture-container .cat {
   height:72%;
-  position:relative;
+  position:absolute;
   left:25px;
   top:210px;
+  background: url(../images/cat/a.png) center bottom no-repeat;
+  width: 100%;
+  background-size: contain;
 }
-
 
 /* Right side container for speech bubble */
 .text-box {
